@@ -1,0 +1,23 @@
+label{
+    display: block;
+}
+input{
+    display: block;
+}
+form{
+    display: grid;
+    align-self: center;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
