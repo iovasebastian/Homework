@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.answer_div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:2em 2em;
+}
+button{
+    width:7em;
+    height:3em;
+}
+.main_game{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    width:30em;
+    height:20em;
+    overflow-wrap: break-word;
+}
+p{
+    margin:1em;
+}
+.score{
+    position:absolute;
+    left:1em;
+    top:1em;
+}
