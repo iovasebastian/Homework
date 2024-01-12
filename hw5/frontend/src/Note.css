@@ -1,0 +1,21 @@
+.divNote{
+    width:10em;
+    height:10em;
+    border:2px solid black;
+    border-radius:2em;
+    word-wrap: break-word;
+    transition: all 0.3s ease 0s;
+}
+.divNote:hover{
+    transition: all 0.3s ease 0s;
+    border-radius: 1em;
+    border-color:blue;
+    cursor: pointer;
+}
+.noteTitle{
+    text-align: center;
+}
+.noteContent{
+    max-width: 100%;
+    padding:1em;
+}

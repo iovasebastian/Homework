@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+}
+.divDetail{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divTextDetail{
+    width:50em;
+    height:40em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputDetail{
+    all:unset;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding:1em;
+    height:10em;
+    margin-top:10%;
+    min-width: 95%;
+    max-width: 95%;
+    max-height: 60%;
+    min-height: 60%;
+    overflow-y: scroll;
+    background-color: cornsilk;
+    
+}
+.inputTitlu{
+    all:unset;
+    border:1px solid black;
+    padding:1em;
+    border-radius: 1em;
+    margin-top: 1em;
+    background-color: cornsilk;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid black;
+    padding: 1em;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: aliceblue;
+    margin-right:7em;
+    margin-left:7em;
+    margin-top:2em;
+    cursor: pointer;
+}
+.button:hover{
+    transition: all 0.3s ease 0s;
+    border-radius: 0.5em;
+    border-color:blue;
+    cursor: pointer;
+}
+h1{
+    text-decoration: underline;
+}
